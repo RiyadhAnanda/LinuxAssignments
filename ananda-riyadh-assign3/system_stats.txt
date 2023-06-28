@@ -1,0 +1,19 @@
+#!/bin/bash
+mystats () {
+echo "Riyadh Ananda"
+echo
+echo "$(whoami) ,welcome to mystats for $(hostname)"
+echo "Current date/time is $(date)"
+echo "============================================="
+echo "Uptime report"
+echo "$(uptime)"
+echo "============================================="
+echo "Your current running processes"
+echo "$(jobs)"
+echo "============================================="
+echo "Disk Usage Report"
+echo "$(du)"
+echo "============================================="
+echo "Have a great day!"
+
+}
